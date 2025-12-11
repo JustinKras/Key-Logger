@@ -1,5 +1,5 @@
 # Key-Logger
-A simple, silent, and easy-to-use key logger.
+A simple, silent, and easy-to-use key logger for Windows.
 
 # Instructions
 - Download and run `k_l_.exe`
